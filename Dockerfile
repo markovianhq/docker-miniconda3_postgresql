@@ -5,5 +5,3 @@ RUN echo "Installing system requirements ..." \
     && echo "deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main" >> /etc/apt/sources.list.d/pgdg.list \
     && apt-get update \
     && apt-get --yes install postgresql postgresql-contrib
-    
-USER postgres
